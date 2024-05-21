@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;  /* Ajustez la valeur pour l'espacement souhaité */
+}
+#color-box {
+    width: 200px;            /* Fixed width */
+    height: 200px;           /* Fixed height */
+    background-color: rgb(127, 26, 243); /* Default background color */
+    
+  }
+  #change-color-btn {
+    background-color: #007BFF;            /* Set a primary background color */
+    color: #fff;                         /* Set text color to white */
+      margin: 1%; 
+    font-size: 16px;                      /* Increase font size */
+    cursor: pointer;                      /* Change cursor to pointer to indicate clickability */
+      }
+  
+  #change-color-btn:hover {
+    background-color: #0056b3;            /* Darken background color on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Intensify shadow on hover */
+  }
+  
+  
+  
+  
